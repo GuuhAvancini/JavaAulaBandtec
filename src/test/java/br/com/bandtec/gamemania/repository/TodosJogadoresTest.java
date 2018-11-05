@@ -39,7 +39,7 @@ public class TodosJogadoresTest {
 	public void buscarJogador() {
 		todosJogadores.save(ronaldinho);
 		
-		List<Jogador> jogadores = todosJogadores.deNome("ronaldo");
+		List<Jogador> jogadores = todosJogadores.deNome("ronaldinho");
 		
 		assertTrue(jogadores.contains(ronaldinho));
 	}
